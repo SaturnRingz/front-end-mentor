@@ -3,10 +3,9 @@
 
 *{
     font-family: 'Outfit', sans-serif;
-    text-align: center;
     --white-color: hsl(0, 0%, 100%);
     --pale-blue-color: hsl(212, 45%, 89%);
-    --gray-color: hsl(220, 15%, 55%);
+    --gray-color: hsla(219, 15%, 55%, 0.327);
     --dark-blue-color: hsl(218, 44%, 22%);
     --violet-color: hsl(228, 45%, 44%);
 }
@@ -37,16 +36,15 @@ h2{
 }
 
 .card{
-    min-width:15rem;
-    max-width: 17rem;
-    padding: 15px;
+    width: 17rem;
+    padding: 1em;
     margin: 6% auto 0;
     border-radius: 20px;
     text-align: justify;
     text-align-last: center;
     color: var(--dark-blue-color);
     background-color: var(--white-color);
-    box-shadow: 15px 15px 30% var(--gray-color);
+    box-shadow: 15px 15px 120px var(--gray-color);
 }
 
 .attribution{
