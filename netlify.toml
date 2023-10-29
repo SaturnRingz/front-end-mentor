@@ -1,2 +1,4 @@
 [build]
-base = "./qr-code-component-main"
+  base = "./qr-code-component-main"
+  command = "npm run build"
+  
